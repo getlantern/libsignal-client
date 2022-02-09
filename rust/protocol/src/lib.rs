@@ -29,7 +29,7 @@ mod curve;
 pub mod error;
 mod fingerprint;
 mod group_cipher;
-mod identity_key;
+pub mod identity_key;
 mod proto;
 mod protocol;
 mod ratchet;
